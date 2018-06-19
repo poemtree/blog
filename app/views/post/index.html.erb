@@ -9,5 +9,6 @@
   <p><%= post.created_at %></p>
   <p><%= post.updated_at %></p>
   <a href="/post/<%= post.id %>">게시글 보기</a>
+  <a href="/post/<%=post.id%>/destroy">삭제</a>
 <% end %>
 <hr>
