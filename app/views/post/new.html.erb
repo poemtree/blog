@@ -1,2 +1,7 @@
 <h1>Post#new</h1>
-<p>Find me in app/views/post/new.html.erb</p>
+<p>New Post</p>
+<form action="/post/create" method="get">
+  <input type="text" name="title"><br>
+  <textarea name="body" rows="10" cols="100" ></textarea><br>
+  <input type="submit" value="Create">
+</form>
