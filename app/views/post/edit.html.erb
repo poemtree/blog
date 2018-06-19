@@ -1,0 +1,8 @@
+<h3>Edit post</h3>
+<form action="/post/update">
+  <input type="hidden" name="id" value="<%=@post.id%>">
+  <input type="text" name="title" value="<%=@post.title%>"><br>
+  <textarea name="body" rows="10" cols="100"><%=@post.body%></textarea><br>
+  <input type="submit" value="Update">
+</form>
+<a href="/">돌아가기</a>
